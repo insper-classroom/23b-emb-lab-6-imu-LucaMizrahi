@@ -142,9 +142,6 @@ static void task_imu(void *pvParameters) {
 	float acc;
 	FusionAhrs ahrs;
 	FusionAhrsInitialise(&ahrs); 
-	float delta_angle_roll;
-	float delta_angle_pitch;
-	float delta_angle_yaw;
 
 	for (;;) {
 		// Le valor do acc X High e Low
